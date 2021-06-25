@@ -2,18 +2,20 @@
 
 namespace App\Entity;
 
-use App\Repository\PropertyRepository;
+use Cocur\Slugify\Slugify;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass=PropertyRepository::class)
+ * @ORM\Entity(repositoryClass="App\Repository\PropertyRepository")
  */
 class Property
 {
 
     const HEAT = [
         0 => 'electric',
-        1 => 'gaz'
+        1 => 'gaz',
+        2 => 'A prévoir',
+        3 => 'Pas de cchauffage'
     ];
 
     /**
@@ -90,7 +92,7 @@ class Property
 
     public function __construct()
     {
-        $this->created_at = new \datetime();
+        $this->created_at = new \DateTime();
     }
 
     public function getId(): ?int
@@ -242,12 +244,12 @@ class Property
         return $this;
     }
 
-    public function getCreatedAt(): ?\DateTimeImmutable
+    public function getCreatedAt()
     {
         return $this->created_at;
     }
 
-    public function setCreatedAt(\DateTimeImmutable $created_at): self
+    public function setCreatedAt($created_at): self
     {
         $this->created_at = $created_at;
 
