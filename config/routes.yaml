@@ -1,7 +1,3 @@
-home:
-  path: /
-  controller: App\controller\HomeController::index
-
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
