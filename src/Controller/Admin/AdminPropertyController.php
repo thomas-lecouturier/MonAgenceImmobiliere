@@ -21,7 +21,7 @@ class AdminPropertyController extends AbstractController
     public function index(PropertyRepository $propertyRepository): Response
     {
         $properties = $propertyRepository->findAll();
-
+        
         return $this->render('admin/property/index.html.twig', [
             'properties' => $properties
         ]);
