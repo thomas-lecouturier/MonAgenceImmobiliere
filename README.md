@@ -9,3 +9,4 @@ création d'un formulaire pour ajouter ou modifier un bien
 Création de contraintes de validation pour le formulaire d'ajout et de modification
 Sécurité et authentification pour se connecter au back office
 Paginer les biens (bundle paginator)
+Filtrer les biens avec une barre de recherche
