@@ -6,3 +6,4 @@ slugify l'URL
 quand on clique sur un bien de la page d'accueil, on arrive sur sa page produit avec ses caracteristiques détaillés
 Création du back-office et du crud property pour ajouter modifier ou supprimer un bien
 création d'un formulaire pour ajouter ou modifier un bien
+Création de contraintes de validation pour le formulaire d'ajout et de modification
