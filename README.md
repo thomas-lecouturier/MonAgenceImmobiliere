@@ -13,3 +13,4 @@ Filtrer les biens avec une barre de recherche
 Gestion des options des biens
 Bundle Vich image uploader pour ajouter les photos des biens 
 Formulaire de contact
+Installation Webpack encore pour gerer le js et ouvrir le formulaire de contact quand on clique sur le bouton contacter l' agence
