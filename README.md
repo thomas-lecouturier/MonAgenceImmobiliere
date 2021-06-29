@@ -12,3 +12,4 @@ Paginer les biens (bundle paginator)
 Filtrer les biens avec une barre de recherche
 Gestion des options des biens
 Bundle Vich image uploader pour ajouter les photos des biens 
+Formulaire de contact
